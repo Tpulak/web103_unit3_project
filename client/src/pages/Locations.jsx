@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import LocationsAPI from '../services/LocationsAPI'
-import unitygrid from '../assets/unitygrid.jpg'
 import '../css/Locations.css'
+
+const unitygrid = 'https://images.unsplash.com/photo-1514565131-fce0801e5785?w=1200'
 
 const Locations = () => {
 
